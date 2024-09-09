@@ -1,0 +1,111 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container and heading */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Select (Search) styles */
+.react-select-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.react-select__control {
+  border-color: #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.react-select__control:hover {
+  border-color: #adb5bd;
+}
+
+.react-select__menu {
+  border-radius: 5px;
+}
+
+.react-select__placeholder {
+  color: #6c757d;
+}
+
+.react-select__single-value {
+  color: #495057;
+}
+
+/* List styles */
+ul.list-group {
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-group-item {
+  background-color: white;
+  border: 1px solid #e9ecef;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item:hover {
+  background-color: #f1f3f5;
+  cursor: pointer;
+}
+
+.list-group-item a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Loading styles */
+p.text-center {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .react-select-container {
+    max-width: 100%;
+  }
+
+  .list-group-item {
+    font-size: 0.9rem;
+  }
+
+  .list-group-item a {
+    font-size: 1rem;
+  }
+}

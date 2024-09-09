@@ -1,0 +1,50 @@
+.weather-details {
+  /* Full page background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* White text for good contrast */
+  padding: 20px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.weather-details h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow to make text stand out */
+}
+
+.weather-details p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+/* Adjust for small devices */
+@media (max-width: 768px) {
+  .weather-details h2 {
+    font-size: 2.5rem;
+  }
+
+  .weather-details p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Further adjustment for very small devices */
+@media (max-width: 480px) {
+  .weather-details h2 {
+    font-size: 2rem;
+  }
+
+  .weather-details p {
+    font-size: 1rem;
+  }
+}
